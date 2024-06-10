@@ -2,4 +2,4 @@ tellraw @a[tag=tpa-source] ["",{"text":"Teleport request has expired","color":"r
 tellraw @a[tag=tpa-target] ["",{"text":"Teleport request has expired","color":"red"}]
 tag @a remove tpa-source
 tag @a remove tpa-target
-scoreboard players reset @a tpaccept
+scoreboard players reset @a tpa-accept
