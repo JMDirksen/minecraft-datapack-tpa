@@ -3,3 +3,4 @@ tellraw @a[tag=tpa-target] ["",{"text":"Teleport request has expired","color":"r
 tag @a remove tpa-source
 tag @a remove tpa-target
 scoreboard players reset @a tpa-accept
+scoreboard players reset @a tpa-cancel
