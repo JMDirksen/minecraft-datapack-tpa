@@ -6,3 +6,4 @@ tellraw @a[tag=tpa-source] ["",{"text":"Teleported to ","color":"green"},{"selec
 tag @a remove tpa-source
 tag @a remove tpa-target
 schedule clear tpa:tpa-expire
+scoreboard players reset @a tpa-cancel
