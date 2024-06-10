@@ -10,3 +10,7 @@ scoreboard players reset @a[scores={tpa=1..}] tpa
 # TPAccept trigger
 execute as @a[scores={tpaccept=1..}] run function tpa:tpaccept
 scoreboard players reset @a[scores={tpaccept=1..}] tpaccept
+
+# TPA-cancel trigger
+execute as @a[scores={tpa-cancel=1..}] run function tpa:tpa-cancel
+scoreboard players reset @a[scores={tpa-cancel=1..}] tpa-cancel
